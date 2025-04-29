@@ -1,85 +1,36 @@
-
 /* style.css */
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #ffffff;
-  direction: rtl;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    direction: rtl;
+    text-align: center;
 }
 
 header {
-  background-color: #e60023;
-  color: white;
-  padding: 20px;
+    background-color: #e60023;
+    color: white;
+    padding: 20px;
 }
 
 nav {
-  background: #f8f8f8;
-  padding: 10px;
+    background: #f8f8f8;
+    padding: 10px;
 }
 
 nav a {
-  margin: 0 15px;
-  color: #e60023;
-  text-decoration: none;
-  font-weight: bold;
+    margin: 0 15px;
+    color: #e60023;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 section {
-  padding: 40px 20px;
-}
-
-img {
-  width: 80%;
-  max-width: 500px;
-  border-radius: 12px;
-  margin-top: 20px;
-}
-
-.button {
-  display: inline-block;
-  margin: 20px 10px;
-  padding: 15px 25px;
-  background-color: #e60023;
-  color: white;
-  text-decoration: none;
-  font-size: 1.2em;
-  border-radius: 30px;
-  transition: background-color 0.3s;
-}
-
-.button:hover {
-  background-color: #b8001b;
-}
-
-footer {
-  background-color: #f2f2f2;
-  padding: 10px;
-  font-size: 0.9em;
-  margin-top: 40px;
-}
-
-/* כפתור וואטסאפ */
-#whatsapp {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  background: #25d366;
-  color: white;
-  padding: 15px;
-  border-radius: 50%;
-  font-size: 24px;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: background 0.3s;
-}
-
-#whatsapp:hover {
-  background: #128c7e;
+    padding: 40px 20px;
 }
