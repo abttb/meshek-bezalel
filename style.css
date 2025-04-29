@@ -1,39 +1,84 @@
-<!DOCTYPE html>
-<html lang="he" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>אודות - משק בצלאל</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    direction: rtl;
+    text-align: center;
+}
 
-<header>
-    <h1>אודות משק בצלאל</h1>
-</header>
+header {
+    background-color: #e60023;
+    color: white;
+    padding: 20px;
+}
 
-<nav>
-    <a href="index.html">דף הבית</a>
-    <a href="about.html">אודות</a>
-</nav>
+nav {
+    background: #f8f8f8;
+    padding: 10px;
+}
 
-<section>
-    <h2>המשפחה שמאחורי התותים</h2>
-    <p>
-        משק בצלאל הוקם מתוך אהבה אמיתית לאדמה ולחקלאות ישראלית. <br>
-        אנחנו — שלושה אחים ואבינו היקר — ממשיכים מסורת משפחתית ארוכת שנים של גידול תוצרת חקלאית מובחרת. <br>
-        מגיל צעיר ספגנו את ערכי העבודה הקשה, האמונה והכבוד לאדמה. <br>
-        במשק שלנו במושב כוכב מיכאל שבדרום הארץ, אנו מגדלים תותים טריים, מתוקים ונקיים — תחת פיקוח מחמיר בכשרות מהדרין. <br>
-        כל תות במשק בצלאל הוא תוצאה של עבודה ידנית, אהבה גדולה לקרקע ומסירות אינסופית לאיכות ולטעם. <br>
-        אנו גאים להמשיך את דרכם של הדורות לפנינו — ולהביא לשולחנכם את פירותיה הברוכים של אדמת ישראל.
-    </p>
-</section>
+nav a {
+    margin: 0 15px;
+    color: #e60023;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-<a id="whatsapp" href="https://wa.me/972508818701" target="_blank">📱</a>
+nav a:hover {
+    text-decoration: underline;
+}
 
-<footer>
-    כל הזכויות שמורות &copy; 2025 משק בצלאל
-</footer>
+section {
+    padding: 40px 20px;
+}
 
-</body>
-</html>
+img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 15px 25px;
+    background-color: #e60023;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #b8001b;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+/* כפתור וואטסאפ */
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #25d366;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s;
+}
+
+#whatsapp:hover {
+    background: #128c7e;
+}
